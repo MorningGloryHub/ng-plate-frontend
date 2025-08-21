@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "assets/admin-template/css/leaflet.css";
+@import "assets/admin-template/css/MarkerCluster.css";
+@import "assets/admin-template/css/MarkerCluster.Default.css";
+@import "assets/admin-template/css/simplebar.min.css";
+@import "assets/admin-template/css/theme.min.css";
+@import "assets/admin-template/css/user.min.css";
+
+/*
+RTL Remark:
+- หากต้องการใช้งาน RTL ให้แทนที่ไฟล์ต่อไปนี้:
+  - theme.min.css  → ใช้  assets/admin-template/css/theme-rtl.min.css
+  - user.min.css   → ใช้  assets/admin-template/css/user-rtl.min.css
+- ตั้งค่า direction ของเอกสารเป็น RTL ด้วยการเพิ่มค่า dir="rtl" ที่แท็ก <html>
+  ในไฟล์ src/index.html เช่น: <html lang="en" dir="rtl">
+- ตรวจสอบคอมโพเนนต์/ปลั๊กอินเสริม (เช่น แผนที่/ตาราง) ว่ารองรับ RTL แล้วหรือไม่
+  และปรับ CSS เพิ่มเติมในไฟล์นี้ (styles.scss) หากจำเป็น
+*/
